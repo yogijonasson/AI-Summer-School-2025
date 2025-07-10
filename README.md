@@ -15,30 +15,24 @@ This section covers foundations of causal graphs, probabilistic models, and caus
 #### 🔍 Key Concepts Covered
 ##### 1. Causality vs. Correlation
 - Describes the limitations of associational statistics.
-
 - Demonstrates how correlation does not imply causation using simple examples.
 
 ##### 2. Counterfactual Reasoning
 - Introduces the concept of counterfactuals, i.e., reasoning about "what would have happened if…"
-
 - Provides formal notation for counterfactual queries and their use in causal reasoning.
 
 ##### 3. Structural Causal Models (SCMs)
 - Formal framework proposed by Judea Pearl.
-
 - Defines variables and relationships via directed acyclic graphs (DAGs).
-
 - Encodes assumptions explicitly to model interventions and counterfactuals.
 
 ##### 4. Do-Calculus and Interventions
 - Introduces the do-operator $do(X = x)$ to model interventions.
-
 - Explains how to compute post-intervention distributions.
 
 
 ##### 5. Identifiability and Estimation
 - Discusses when a causal quantity is identifiable from observational data.
-
 - Introduces conditions like back-door and front-door criteria.
 
 ### Frugal AI: Social & Environmental Impact
