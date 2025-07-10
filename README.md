@@ -127,3 +127,6 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
 - Collaboration between domain experts and data scientists is critical
 - Sustainable AI systems must be explainable, efficient, and impactful
 
+### Generative AI
+
+
