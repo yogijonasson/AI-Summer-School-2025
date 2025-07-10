@@ -17,7 +17,7 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
 - Social exclusion in under-resourced regions
 - Misalignment between AI development and global sustainability goals
 
-#### 📚 Connections to KTH Sustainability Readings
+#### 📚 Related Theories and Readings
 - **Donella Meadows – *Leverage Points***  
   - Frugal AI targets deep leverage points (e.g., shifting system goals and mindsets) to move beyond performance-focused AI.
 - **Steve Easterbrook – *From Computational Thinking to Systems Thinking***  
