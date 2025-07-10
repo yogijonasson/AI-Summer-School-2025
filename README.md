@@ -1,12 +1,45 @@
 ### Topics Covered
 
-- **Theory of Causality** – Hisham  
+- **Introduction to causality and causal reasoning** – Hisham  
 - **Machine & Deep Learning** – Clement  
 - **AI & Intellectual Property** – *(TBD)*  
 - **AI in Health** – Clement  
 - **Frugal AI: Social & Environmental Impact** – Yogi
 -  **AI Project Management & Data Challenge** – Yogi  
 - **Generative AI** – Hisham  
+
+### Introduction to causality and causal reasoning
+
+This section covers foundations of causal graphs, probabilistic models, and causal discovery.  While correlation identifies associations between variables, causal inference seeks to answer what happens if we intervene? This shift from observation to intervention is critical in fields like medicine, economics, and artificial intelligence.
+
+#### 🔍 Key Concepts Covered
+##### 1. Causality vs. Correlation
+- Describes the limitations of associational statistics.
+
+- Demonstrates how correlation does not imply causation using simple examples.
+
+##### 2. Counterfactual Reasoning
+- Introduces the concept of counterfactuals, i.e., reasoning about "what would have happened if…"
+
+- Provides formal notation for counterfactual queries and their use in causal reasoning.
+
+##### 3. Structural Causal Models (SCMs)
+- Formal framework proposed by Judea Pearl.
+
+- Defines variables and relationships via directed acyclic graphs (DAGs).
+
+- Encodes assumptions explicitly to model interventions and counterfactuals.
+
+##### 4. Do-Calculus and Interventions
+- Introduces the do-operator $do(X = x)$ to model interventions.
+
+- Explains how to compute post-intervention distributions.
+
+
+##### 5. Identifiability and Estimation
+- Discusses when a causal quantity is identifiable from observational data.
+
+- Introduces conditions like back-door and front-door criteria.
 
 ### Frugal AI: Social & Environmental Impact
 
