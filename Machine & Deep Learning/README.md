@@ -1,4 +1,4 @@
-# Summary of AI and Machine Learning Course
+# Summary of Machine & Deep Learning Course
 
 In this class, which lasted for 8 sessions of 3 hours each, we learned a lot of technical things about AI, focusing on neural networks, machine learning, and their applications. Here's a summary of the key topics and concepts covered:
 
