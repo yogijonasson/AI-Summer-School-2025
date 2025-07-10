@@ -72,3 +72,58 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
 
 #### 🎯 Overall Goal
 > To move toward AI systems that **do more with less**, embedding sustainability, equity, and ethical responsibility as foundational—not optional—values in innovation.
+
+### 🧩 AI Project Management & Use Case Design
+
+#### 🔄 AI Project Management Phases
+
+1. **Business Understanding**
+   - Define the problem, success metrics, and expected impact
+   - Align AI goals with business or industrial needs
+
+2. **Data Understanding**
+   - Identify available data sources
+   - Assess data quality, relevance, and compliance (e.g., GDPR)
+
+3. **Data Preparation**
+   - Clean, transform, and structure data
+   - Address bias, missing values, and standardization
+
+4. **Modeling**
+   - Select and train AI/ML models
+   - Optimize for accuracy, efficiency, and interpretability
+
+5. **Evaluation**
+   - Test model on unseen data
+   - Assess performance against KPIs and business expectations
+
+6. **Deployment**
+   - Integrate AI into existing systems and workflows
+   - Ensure scalability, monitoring, and user acceptance
+
+7. **Monitoring & Maintenance**
+   - Continuously assess model performance
+   - Update model or retrain as needed
+
+---
+
+#### 🛠️ Use Case: Automatic Product Quotation System
+
+- **Goal**: Design an AI-powered decision support tool to estimate production costs
+- **Process**:
+  - Map industrial needs → identify data needs → define technical solutions
+  - Address challenges of performance, explainability, and user integration
+
+- **Performance Evaluation**:
+  - Assess accuracy, usability, and business value
+  - Include interpretability tools (e.g., feature importance, decision trees)
+  - Ensure sustainable and ethical deployment
+
+---
+
+#### 💡 Key Takeaways
+- AI project success requires both technical and organizational alignment
+- Data quality and governance are foundational
+- Collaboration between domain experts and data scientists is critical
+- Sustainable AI systems must be explainable, efficient, and impactful
+
