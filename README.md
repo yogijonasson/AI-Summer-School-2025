@@ -134,4 +134,31 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 
 ### Generative AI
 
+This section covers fundamental theories of semantic representation in Natural Language Processing (NLP)
 
+#### 🔍 Key Concepts Covered
+##### 1. Ontology of Meaning
+Semantic meaning is formally defined as the invariant truth conditions shared across paraphrased expressions, exemplified by deriving "Socrates is mortal" from "All men are mortal." This conceptual framework is implemented computationally through three complementary paradigms: symbolic logic using first-order predicate calculus (e.g., $\forall x: { } human(x) \Rightarrow mortal(x) $); vector geometry that maps words to $\mathbb{R}^D$ where angular distance quantifies semantic similarity $(e.g.,~\arccos\left( \frac{\vec{v}_1 \cdot \vec{v}_2}{\lVert \vec{v}_1 \rVert \lVert \vec{v}_2 \rVert} \right))$  reveals "anteater" ($\vec{v}_1$) and "ant" ($\vec{v}_2$) are 15° apart); and neural networks that learn continuous representations $\phi: \mathcal{V} \rightarrow \mathbb{R}^D$ directly from linguistic data, prioritizing scalability over interpretability.
+
+##### 2. Componential Semantics
+Lexical meaning is decomposed into atomic primitives—binary features ($man = [+male, +adult]$) for basic terms or continuous activations across 873 Larousse concepts for richer vocabulary (e.g., "peace" activates $PEACE=0.9$, $LIBERTY=0.8$). Semantic composition is governed by algebraic operations: normalized summation $\left( v_a\mathbin{\oplus_b} = \frac{v_a + v_b}{\lVert v_a + v_b \rVert} \right) $) merges primitives, term-wise product ($v_a\mathbin{\otimes_b} = v_a \odot v_b $) extracts intersections, and weak contextualization ($\gamma(v_a, v_b) = v_a + v_b + \left( v_a \odot v_b \right) $) enriches meaning. Polysemy is resolved via vector superposition, as in $bat = 0.6\cdot v_{animal} + 0.4 \cdot v_{sports{ }tool}$.
+
+##### 3. Distributional Semantics"You understand a word by the words around it":
+
+- Basic Approach:
+
+  - Each word gets a unique ID (like "apple=ID73")
+
+  - Documents become lists of these IDs
+
+
+- Advanced Approach (Word2Vec):
+
+  - Predicts neighboring words (e.g., "juice" likely near "orange")
+
+  - Discovers relationships: king - man + woman ≈ queen
+
+  - Groups similar words (Sweden/Norway/Denmark cluster together)
+
+##### Evolutionary Synthesis
+The trajectory progresses from interpretable handcrafted features (1960s-2000s) to data-driven statistical embeddings (2010s), culminating in hybrid deep learning models that balance precision and scalability. This convergence establishes vectors as the universal substrate for semantic computation in modern NLP systems.
