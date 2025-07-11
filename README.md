@@ -127,9 +127,9 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 - Our biggest takeaway: **if the model fails, revisit the data pipeline first**—debugging at the model stage without clean data is often wasted effort.
 - Moving forward, we need to rebuild the pipeline with a stronger foundation in **data cleaning**, **model debugging**, and **performance evaluation**.
 
-> 📂 We will upload our **team presentation slides** and **workbook/code** from the challenge below.
-> AI Project Management & Data Challanges/AI-Driven Cost Estimation for Injection Mold Quotation.pdf
-> AI Project Management & Data Challanges/Data_Project_Team_3 Final.ipynb
+📂 These are our
+[team presentation slides](AI%20Project%20Management%20%26%20Data%20Challanges/AI-Driven%20Cost%20Estimation%20for%20Injection%20Mold%20Quotation.pdf) and 
+[workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Data_Project_Team_3%20Final.ipynb) from the data challange.
 
 
 ### Generative AI
