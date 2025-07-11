@@ -162,3 +162,19 @@ Lexical meaning is decomposed into atomic primitives—binary features ($man = [
 
 ##### Evolutionary Synthesis
 The trajectory progresses from interpretable handcrafted features (1960s-2000s) to data-driven statistical embeddings (2010s), culminating in hybrid deep learning models that balance precision and scalability. This convergence establishes vectors as the universal substrate for semantic computation in modern NLP systems.
+
+### ⚖️ AI & Intellectual Property
+
+- **Human authorship is required** for most IP rights (copyrights, patents).
+- **AI-generated content** (text, images, inventions) typically cannot be patented or copyrighted on its own.
+- **Prompts** used to guide AI (e.g. in Midjourney or ChatGPT) are **not considered inventions** and don't qualify for patent protection.
+
+#### 🎨 Notable Example
+- In 2022, an AI-generated image ("**Théâtre D'opéra Spatial**") won an art competition using **Midjourney**.
+- It sparked controversy over fairness, originality, and copyright—raising global debate on AI's role in creative fields.
+
+#### 🔑 Takeaways
+- Patents and copyrights currently **exclude non-human creators**.
+- Legal frameworks are **not yet adapted** to fully address AI-generated works.
+- Future laws may evolve to recognize **human-AI collaboration**, but the field remains a legal gray zone.
+
