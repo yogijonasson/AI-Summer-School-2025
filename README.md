@@ -178,3 +178,58 @@ The trajectory progresses from interpretable handcrafted features (1960s-2000s) 
 - Legal frameworks are **not yet adapted** to fully address AI-generated works.
 - Future laws may evolve to recognize **human-AI collaboration**, but the field remains a legal gray zone.
 
+### 🧬 AI in Health
+
+AI technologies are revolutionizing medicine through **precision-based treatments**, enabled by **big data**, **clinical insights**, and **multi-omics analysis**. This section combines theoretical concepts with hands-on Python notebooks developed as part of our AI in Health module.
+
+---
+
+#### 🧠 Key Concepts
+
+- **Precision Medicine**  
+  AI enables analysis of large-scale biomedical data to design **targeted, personalized treatments** based on demographic and molecular information.
+
+- **Targeted Therapies**  
+  Modern anti-cancer drugs are designed to interact with specific **molecular targets**, often proteins, identified through data-driven AI methods.
+
+- **Disease Understanding**  
+  - A disease involves cellular or tissue-level dysfunction that impairs organ performance and causes clinical symptoms.  
+  - **Chronic diseases** last 3+ months and often require longitudinal data for proper analysis.
+
+- **Global Health Impact**  
+  AI helps **characterize patients at scale** and propose targeted interventions across populations.
+
+- **The Multi-Omics Era**  
+  Diseases arise from complex interactions across different biological layers—**genomics, proteomics, transcriptomics**, etc.—which AI helps interpret through integrated models.
+
+---
+
+#### 📚 AI for Health – Python Notebooks
+
+1. **🧾 Tabular Data: Risk Classification**  
+   [`AI4Health_01_Tabular_Classification.ipynb`](AI%20For%20Health/AI4Health_01_Tabular_Classification.ipynb)  
+   - Applies AI to structured patient data for **disease risk prediction**.
+   - Demonstrates classification pipelines with demographic and clinical features.
+
+2. **📄 Clinical Text Classification**  
+   [`AI4Health_02_Clinical_Text_Classification.ipynb`](AI%20For%20Health/AI4Health_02_Clinical_Text_Classification.ipynb)  
+   - Processes real-world **clinical notes** using NLP techniques.
+   - Builds models to **classify health conditions** from unstructured text data.
+
+3. **🧬 Multi-Omics Precision Modeling**  
+   [`AI4Health_03_Omics_Precision_Medicine.ipynb`](AI%20For%20Health/AI4Health_03_Omics_Precision_Medicine.ipynb)  
+   - Integrates genomic and molecular-level data.
+   - Demonstrates how AI can support **precision medicine** by linking genetic profiles to treatment outcomes.
+
+4. **🧫 Histology Image Classification**  
+   [`AI4Health_04_Histology_Image_Classification.ipynb`](AI%20For%20Health/AI4Health_04_Histology_Image_Classification.ipynb)  
+   - Uses computer vision to analyze **microscopic tissue images**.
+   - Helps automate disease diagnosis and improve early detection.
+
+---
+
+#### 🔑 Summary
+
+These notebooks demonstrate how AI can be applied across multiple healthcare data types—structured tables, clinical text, omics, and images—to support precision medicine and improve patient care.
+
+> 💡 Together, they reflect how AI is **not just a tool**, but a transformative force for global health and next-generation medical practices.
