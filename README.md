@@ -35,6 +35,48 @@ This section covers foundations of causal graphs, probabilistic models, and caus
 - Discusses when a causal quantity is identifiable from observational data.
 - Introduces conditions like back-door and front-door criteria.
 
+
+### Machine & Deep Learning Course Overview
+
+During this course, which consisted of 8 sessions of 3 hours each, we covered a wide range of technical topics related to AI and machine learning. Below is a summary of the key concepts and techniques we explored:
+
+#### 📚​ Introduction to AI and Neural Networks
+
+- We began with an introduction to the history of AI, highlighting significant milestones such as the coining of the term "AI" in 1956 and the creation of the first chatbot, Elisa, in 1966.
+- Our discussions on neural networks included their components such as databases for training, validation, and testing, neuron structures, cost/loss functions, metrics, and learning algorithms like gradient descent.
+
+#### 🧠​ Types of Neural Networks
+
+- **Convolutional Neural Networks (CNNs)**: We examined how CNNs process raw data using filters and pooling to automatically extract features, and the role of layers like batch normalization and dropout.
+- **Recursive Neural Networks (RNNs)**: These were discussed in the context of handling sequential and temporal data, along with their challenges like slow convergence and instability.
+- **Long Short-Term Memory Networks (LSTMs)**: As an advanced form of RNNs, we focused on their architecture involving gates such as forget, input, and output gates, which help in capturing long-term dependencies.
+
+#### 💡​ Key Concepts in Machine Learning
+
+- We addressed common challenges in machine learning such as overfitting and underfitting, and the bias-variance trade-off. Techniques like regularization were discussed to improve model generalization.
+- The conversion of text into numerical forms using tokenization, vectorization, and one-hot encoding was covered, emphasizing their importance in processing textual data.
+- Embeddings were explored as a method to project words into a dimensional space, preserving semantic meanings and relationships.
+
+#### 🛠️​ Machine Learning Techniques
+
+- The importance of splitting data into training, validation, and test sets was emphasized for robust model evaluation.
+- We covered various learning paradigms, including supervised, unsupervised, semi-supervised, self-supervised, and transfer learning.
+- Evaluation metrics for models were discussed, such as accuracy, precision, recall, F1-score for classification, and MSE, RMSE, MAE for regression tasks.
+- Various models were studied, including K-means Clustering for unsupervised learning, K-Nearest Neighbors (KNN) for classification, Decision Trees for both classification and regression, and Logistic Regression.
+
+#### 👨‍💻​​ Practical Sessions 👩‍💻
+
+In addition to theoretical learning, the course included practical sessions using Python notebooks. These hands-on sessions allowed us to implement and experiment with the concepts discussed in class. We worked on various datasets, applying machine learning techniques and neural network models to solve real-world problems. These practical exercises were crucial in reinforcing our understanding and skills in AI and machine learning. <br>
+In these session we saw about 
+- [VAE](Machine%20%26%20Deep%20Learning/VAE) (Variational Auto-Encoders) for simple image generation,
+- [LSTM](Machine%20%26%20Deep%20Learning/LSTM) for emotion recognition in texts,
+- [Machine Learning Algorithms](Machine%20%26%20Deep%20Learning/Machine_Learning) for mushrooms classification.
+
+#### ✅ ​Conclusion
+
+This course provided a comprehensive overview of foundational and advanced concepts in AI and machine learning. Through both theoretical and practical sessions, we gained valuable experience and insights into the field, preparing us for further exploration and application in artificial intelligence.
+
+
 ### Frugal AI: Social & Environmental Impact
 
 Frugal AI refers to resource-efficient, socially equitable, and environmentally sustainable approaches to AI development and deployment.
