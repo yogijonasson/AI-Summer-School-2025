@@ -35,6 +35,7 @@ This section covers foundations of causal graphs, probabilistic models, and caus
 - Discusses when a causal quantity is identifiable from observational data.
 - Introduces conditions like back-door and front-door criteria.
 
+------ 
 
 ### Machine & Deep Learning Course Overview
 
@@ -76,6 +77,7 @@ In these session we saw about
 
 This course provided a comprehensive overview of foundational and advanced concepts in AI and machine learning. Through both theoretical and practical sessions, we gained valuable experience and insights into the field, preparing us for further exploration and application in artificial intelligence.
 
+-------
 
 ### Frugal AI: Social & Environmental Impact
 
