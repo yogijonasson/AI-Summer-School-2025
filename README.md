@@ -128,6 +128,8 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 - Moving forward, we need to rebuild the pipeline with a stronger foundation in **data cleaning**, **model debugging**, and **performance evaluation**.
 
 > 📂 We will upload our **team presentation slides** and **workbook/code** from the challenge below.
+> AI Project Management & Data Challanges/AI-Driven Cost Estimation for Injection Mold Quotation.pdf
+> AI Project Management & Data Challanges/Data_Project_Team_3 Final.ipynb
 
 
 ### Generative AI
