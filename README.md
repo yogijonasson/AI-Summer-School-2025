@@ -73,59 +73,62 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
 #### 🎯 Overall Goal
 > To move toward AI systems that **do more with less**, embedding sustainability, equity, and ethical responsibility as foundational—not optional—values in innovation.
 
-### 🧩 AI Project Management & Use Case Design
 
-#### 🔄 AI Project Management Phases
+### 🧩 AI Project Management & Use Case Design (Data Challenge)
 
-1. **Business Understanding**
-   - Define the problem, success metrics, and expected impact
-   - Align AI goals with business or industrial needs
+As part of the challenge, we were tasked with **managing and delivering an end-to-end AI project** in under one day. The goal was to apply both theoretical and practical AI project management principles to a realistic industrial use case.
 
-2. **Data Understanding**
-   - Identify available data sources
-   - Assess data quality, relevance, and compliance (e.g., GDPR)
+---
 
-3. **Data Preparation**
-   - Clean, transform, and structure data
-   - Address bias, missing values, and standardization
+#### 🔄 AI Project Management Phases (Applied in Our Challenge)
 
-4. **Modeling**
-   - Select and train AI/ML models
-   - Optimize for accuracy, efficiency, and interpretability
+1. **Business Understanding**  
+   Defined the industrial need: automatic quotation of product manufacturing costs.
 
-5. **Evaluation**
-   - Test model on unseen data
-   - Assess performance against KPIs and business expectations
+2. **Data Understanding**  
+   Explored the provided dataset, identified gaps, and assessed quality and relevance.
 
-6. **Deployment**
-   - Integrate AI into existing systems and workflows
-   - Ensure scalability, monitoring, and user acceptance
+3. **Data Preparation**  
+   Cleaned, processed, and structured the data for modeling.
 
-7. **Monitoring & Maintenance**
-   - Continuously assess model performance
-   - Update model or retrain as needed
+4. **Modeling**  
+   Applied machine learning algorithms (Linear Regression, Random Forest) to predict prices.
+
+5. **Evaluation**  
+   Attempted to assess model performance based on accuracy and business relevance.
+
+6. **Deployment Planning**  
+   Proposed a basic integration plan into an industrial workflow.
+
+7. **Monitoring & Maintenance (Theoretical)**  
+   Considered how the model would need to evolve over time.
 
 ---
 
 #### 🛠️ Use Case: Automatic Product Quotation System
 
-- **Goal**: Design an AI-powered decision support tool to estimate production costs
-- **Process**:
-  - Map industrial needs → identify data needs → define technical solutions
-  - Address challenges of performance, explainability, and user integration
-
-- **Performance Evaluation**:
-  - Assess accuracy, usability, and business value
-  - Include interpretability tools (e.g., feature importance, decision trees)
-  - Ensure sustainable and ethical deployment
+- Designed an AI-powered tool to support **cost estimation** in a manufacturing context.
+- Mapped industrial needs to data and technical requirements.
+- Balanced trade-offs between **accuracy**, **interpretability**, and **feasibility**.
+- Shared insights and solution architecture in a final **team presentation**.
 
 ---
 
-#### 💡 Key Takeaways
-- AI project success requires both technical and organizational alignment
-- Data quality and governance are foundational
-- Collaboration between domain experts and data scientists is critical
-- Sustainable AI systems must be explainable, efficient, and impactful
+#### 💡 Key Takeaways from the Data Challenge
+
+- We had only **5 hours** to regroup and complete the challenge, which tested our ability to prioritize, collaborate, and make quick decisions.
+- We completed most of the presentation—including project planning and system design—but couldn’t deliver a **functioning machine learning model** in time.
+- Despite trying both **Linear Regression** and **Random Forest**, our models failed to produce reliable predictions.
+- Possible reasons include:
+  - Data cleaning issues
+  - Bugs or missteps in our **Python implementation**
+  - Misalignment between model selection and the data characteristics
+- This made it clear that early alignment around **data quality and preprocessing** is critical.
+- Our biggest takeaway: **if the model fails, revisit the data pipeline first**—debugging at the model stage without clean data is often wasted effort.
+- Moving forward, we need to rebuild the pipeline with a stronger foundation in **data cleaning**, **model debugging**, and **performance evaluation**.
+
+> 📂 We will upload our **team presentation slides** and **workbook/code** from the challenge below.
+
 
 ### Generative AI
 
