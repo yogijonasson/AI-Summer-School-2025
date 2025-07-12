@@ -171,7 +171,7 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 
 📂 These are the group A
 [presentation slides](AI%20Project%20Management%20%26%20Data%20Challenges/Group_A/AI-Driven%20Cost%20Estimation%20for%20Injection%20Mold%20Quotation.pdf) and 
-[workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Group_A/Data_Project_Team_3%20Final.ipynb) from the data challenge.
+[workbook/code](AI%20Project%20Management%20%26%20Data%20Challenges/Group_A/Data_Project_Team_3%20Final.ipynb) from the data challenge.
 
 ##### For the Group B : 
 - We managed to deliver a functioning machine learning model in time, using **Random Forest** algorithm.
@@ -184,7 +184,7 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 
 📂 These are the group B
 [presentation slides](AI%20Project%20Management%20%26%20Data%20Challenges/Group_B/Data%20Challenge%20Presentation.pdf) and 
-[workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Group_B/data_chal.ipynb) from the data challenge.
+[workbook/code](AI%20Project%20Management%20%26%20Data%20Challenges/Group_B/data_chal.ipynb) from the data challenge.
 
 ------ 
 
