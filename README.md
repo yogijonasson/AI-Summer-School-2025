@@ -123,7 +123,7 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
 
 ### 🧩 AI Project Management & Use Case Design (Data Challenge)
 
-As part of the challenge, we were tasked with **managing and delivering an end-to-end AI project** in under one day. The goal was to apply both theoretical and practical AI project management principles to a realistic industrial use case.
+As part of the challenge, we were tasked with **managing and delivering an end-to-end AI project** in under one day. In groups of 3-5 students, the goal was to apply both theoretical and practical AI project management principles to a realistic industrial use case.
 
 #### 🔄 AI Project Management Phases (Applied in Our Challenge)
 
@@ -158,6 +158,7 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 #### 💡 Key Takeaways from the Data Challenge
 
 - We had only **5 hours** to regroup and complete the challenge, which tested our ability to prioritize, collaborate, and make quick decisions.
+##### For the Group A :
 - We completed most of the presentation—including project planning and system design—but couldn’t deliver a **functioning machine learning model** in time.
 - Despite trying both **Linear Regression** and **Random Forest**, our models failed to produce reliable predictions.
 - Possible reasons include:
@@ -168,9 +169,22 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 - Our biggest takeaway: **if the model fails, revisit the data pipeline first**—debugging at the model stage without clean data is often wasted effort.
 - Moving forward, we need to rebuild the pipeline with a stronger foundation in **data cleaning**, **model debugging**, and **performance evaluation**.
 
-📂 These are our
-[team presentation slides](AI%20Project%20Management%20%26%20Data%20Challanges/AI-Driven%20Cost%20Estimation%20for%20Injection%20Mold%20Quotation.pdf) and 
-[workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Data_Project_Team_3%20Final.ipynb) from the data challange.
+📂 These are the group A
+[presentation slides](AI%20Project%20Management%20%26%20Data%20Challenges/Group_A/AI-Driven%20Cost%20Estimation%20for%20Injection%20Mold%20Quotation.pdf) and 
+[workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Group_A/Data_Project_Team_3%20Final.ipynb) from the data challenge.
+
+##### For the Group B : 
+- We managed to deliver a functioning machine learning model in time, using **Random Forest** algorithm.
+- While testing our model on new test data, we had some pretty good results (R² score of 0.92).
+- But when talking with the professor, we understood that our model maybe wasn't well thought:
+  - In fact, the cost we had to predict was a sum of some of the categories of the sample (like subcontracting or purchase price)
+  - And by considering those categories as inputs (and not outputs), the model understood that those categories were the most important ones.
+  - Maybe by considering those categories as output, the model would base its predictions on more relevant features.
+- Through this reflection, we understood the importance of understanding the data we have to manipulate, in order to avoid this kind of possible errors.
+
+📂 These are the group B
+[presentation slides](AI%20Project%20Management%20%26%20Data%20Challenges/Group_B/Data%20Challenge%20Presentation.pdf) and 
+[workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Group_B/data_chal.ipynb) from the data challenge.
 
 ------ 
 
