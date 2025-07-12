@@ -178,9 +178,9 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 [workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Data_Project_Team_3%20Final.ipynb) from the data challange.
 
 
-### Generative AI
+### Generative AI - Vector Representations, Speech & LLMs in NLP
 
-This section covers fundamental theories of semantic representation in Natural Language Processing (NLP)
+This course explores the foundations and frontiers of **Natural Language Processing (NLP)** and **Speech Processing**, with emphasis on **semantic representation**, **vector spaces**, and **Large Language Models (LLMs)** such as **FlauBERT** and **Pantagruel**. It spans from symbolic logic to neural embeddings and addresses practical, ethical, and technical challenges.
 
 #### 🔍 Key Concepts Covered
 ##### 1. Ontology of Meaning
@@ -202,6 +202,94 @@ Lexical meaning is decomposed into atomic primitives—binary features ($man = [
 
 ##### Evolutionary Synthesis
 The trajectory progresses from interpretable handcrafted features (1960s-2000s) to data-driven statistical embeddings (2010s), culminating in hybrid deep learning models that balance precision and scalability. This convergence establishes vectors as the universal substrate for semantic computation in modern NLP systems.
+
+The historical trajectory of NLP:
+
+| Era                     | Methodology                    | Features                              |
+|------------------------|--------------------------------|---------------------------------------|
+| Symbolic NLP (1950–90s) | Rule-based, logical            | High interpretability, low coverage   |
+| Statistical NLP (1990s–2010s) | Probabilistic, data-driven   | Bag-of-words, n-grams, LSA            |
+| Neural NLP (2013–Now)  | Deep learning & self-supervised | Word2Vec, BERT, GPT, Transformers     |
+
+Today, **vector representations** unify the field—from logic to language generation.
+
+
+#### 🇫🇷 Case Study: FlauBERT to Pantagruel
+
+##### 🧪 FlauBERT (2019)
+- French BERT-style model (base: 138M | large: 373M)
+- Trained on 71GB across 24 corpora
+- Evaluation benchmark: **FLUE** (French GLUE)
+
+##### 🔬 JARGON (2023)
+- Domain-specialized French models:
+  - Biomedical, Legal, Oral French
+- Efficient Transformer variant using **Linformer** for 4096-token contexts
+- Evaluated on 16 downstream tasks
+
+##### 🧱 Pantagruel Project (2024–)
+- Building **multimodal, inclusive LLMs** (text, speech, pictograms)
+- Focus on accessibility, medical NLP, and HSS applications
+- Teams: LIG, INA, CREST, EPFL, +70 researchers
+
+---
+
+#### 🗣️ NLP & Speech Applications
+
+Core Tasks:
+- Language modeling
+- Text classification
+- Word sense disambiguation
+- Part-of-speech tagging
+- Dependency parsing
+- Named entity recognition
+- Machine translation
+- Speech recognition
+
+---
+
+#### 📊 Evaluation Metrics
+
+| Task            | Metric(s)                        |
+|-----------------|----------------------------------|
+| Translation     | BLEU, TER, NIST                  |
+| Summarization   | ROUGE, METEOR                    |
+| Text Gen.       | BLEURT, CIDEr                    |
+| Classification  | Accuracy, F1, Precision/Recall   |
+
+⚠️ Automatic metrics ≠ real understanding → correlation with human judgment remains debated.
+
+---
+
+#### 🌍 Ethical & Technical Considerations
+
+- **Bias**: Gender, racial, and cultural biases embedded in training data
+- **Compute Costs**:  
+  - GPT-3 = 175B params → 700GB RAM  
+  - Training = $280M+ in hardware + energy
+- **Environmental Impact**:  
+  - Energy-heavy → not “green” AI
+- **Black-box Models**:  
+  - Lack transparency & interpretability
+- **Privacy & GDPR**:  
+  - Hosting on U.S. servers raises compliance concerns
+
+---
+
+#### 📘 References & Further Reading
+
+- Jurafsky & Martin (2019) — *Speech and Language Processing*
+- Le et al. (2020) — *FlauBERT: Unsupervised Language Model Pre-training for French*
+- Schwab et al. — *From FlauBERT to Pantagruel*
+- Strubell et al. (2019) — *Energy and Policy Considerations for NLP*
+- Ouyang et al. (2022) — *InstructGPT*
+- Chomsky (1957), Bolt (1980), Firth (1957)
+
+---
+
+#### ✅ Summary
+This course bridges foundational theory and cutting-edge practice in NLP. From logical meaning to contextual embeddings, and from French language modeling to multimodal inclusivity, it equips students to understand, apply, and critique modern NLP systems.
+
 
 ### ⚖️ AI & Intellectual Property
 
