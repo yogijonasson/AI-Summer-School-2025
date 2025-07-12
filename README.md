@@ -8,6 +8,7 @@
 - [**AI & Intellectual Property**](#-ai--intellectual-property)
 - [**AI for Health**](#-ai-for-health)
 
+------ 
 ### Introduction to causality and causal reasoning
 
 This section covers foundations of causal graphs, probabilistic models, and causal discovery.  While correlation identifies associations between variables, causal inference seeks to answer what happens if we intervene? This shift from observation to intervention is critical in fields like medicine, economics, and artificial intelligence.
@@ -118,12 +119,11 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
 #### 🎯 Overall Goal
 > To move toward AI systems that **do more with less**, embedding sustainability, equity, and ethical responsibility as foundational—not optional—values in innovation.
 
+------ 
 
 ### 🧩 AI Project Management & Use Case Design (Data Challenge)
 
 As part of the challenge, we were tasked with **managing and delivering an end-to-end AI project** in under one day. The goal was to apply both theoretical and practical AI project management principles to a realistic industrial use case.
-
----
 
 #### 🔄 AI Project Management Phases (Applied in Our Challenge)
 
@@ -148,16 +148,12 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 7. **Monitoring & Maintenance (Theoretical)**  
    Considered how the model would need to evolve over time.
 
----
-
 #### 🛠️ Use Case: Automatic Product Quotation System
 
 - Designed an AI-powered tool to support **cost estimation** in a manufacturing context.
 - Mapped industrial needs to data and technical requirements.
 - Balanced trade-offs between **accuracy**, **interpretability**, and **feasibility**.
 - Shared insights and solution architecture in a final **team presentation**.
-
----
 
 #### 💡 Key Takeaways from the Data Challenge
 
@@ -176,6 +172,7 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 [team presentation slides](AI%20Project%20Management%20%26%20Data%20Challanges/AI-Driven%20Cost%20Estimation%20for%20Injection%20Mold%20Quotation.pdf) and 
 [workbook/code](AI%20Project%20Management%20%26%20Data%20Challanges/Data_Project_Team_3%20Final.ipynb) from the data challange.
 
+------ 
 
 ### Generative AI - Vector Representations, Speech & LLMs in NLP
 
@@ -231,8 +228,6 @@ Today, **vector representations** unify the field—from logic to language gener
 - Focus on accessibility, medical NLP, and HSS applications
 - Teams: LIG, INA, CREST, EPFL, +70 researchers
 
----
-
 #### 🗣️ NLP & Speech Applications
 
 Core Tasks:
@@ -245,8 +240,6 @@ Core Tasks:
 - Machine translation
 - Speech recognition
 
----
-
 #### 📊 Evaluation Metrics
 
 | Task            | Metric(s)                        |
@@ -257,8 +250,6 @@ Core Tasks:
 | Classification  | Accuracy, F1, Precision/Recall   |
 
 ⚠️ Automatic metrics ≠ real understanding → correlation with human judgment remains debated.
-
----
 
 #### 🌍 Ethical & Technical Considerations
 
@@ -273,8 +264,6 @@ Core Tasks:
 - **Privacy & GDPR**:  
   - Hosting on U.S. servers raises compliance concerns
 
----
-
 #### 📘 References & Further Reading
 
 - Jurafsky & Martin (2019) — *Speech and Language Processing*
@@ -284,11 +273,10 @@ Core Tasks:
 - Ouyang et al. (2022) — *InstructGPT*
 - Chomsky (1957), Bolt (1980), Firth (1957)
 
----
-
 #### ✅ Summary
 This course bridges foundational theory and cutting-edge practice in NLP. From logical meaning to contextual embeddings, and from French language modeling to multimodal inclusivity, it equips students to understand, apply, and critique modern NLP systems.
 
+------ 
 
 ### ⚖️ AI & Intellectual Property
 
@@ -305,11 +293,11 @@ This course bridges foundational theory and cutting-edge practice in NLP. From l
 - Legal frameworks are **not yet adapted** to fully address AI-generated works.
 - Future laws may evolve to recognize **human-AI collaboration**, but the field remains a legal gray zone.
 
+------ 
+
 ### 🧬 AI for Health
 
 AI technologies are revolutionizing medicine through **precision-based treatments**, enabled by **big data**, **clinical insights**, and **multi-omics analysis**. This section combines theoretical concepts with hands-on Python notebooks developed as part of our AI in Health module.
-
----
 
 #### 🧠 Key Concepts
 
@@ -328,8 +316,6 @@ AI technologies are revolutionizing medicine through **precision-based treatment
 
 - **The Multi-Omics Era**  
   Diseases arise from complex interactions across different biological layers—**genomics, proteomics, transcriptomics**, etc.—which AI helps interpret through integrated models.
-
----
 
 #### 📚 AI for Health – Python Notebooks
 
@@ -352,8 +338,6 @@ AI technologies are revolutionizing medicine through **precision-based treatment
    [`AI4Health_04_Histology_Image_Classification.ipynb`](AI%20For%20Health/AI4Health_04_Histology_Image_Classification.ipynb)  
    - Uses computer vision to analyze **microscopic tissue images**.
    - Helps automate disease diagnosis and improve early detection.
-
----
 
 #### 🔑 Summary
 
