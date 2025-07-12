@@ -1,8 +1,9 @@
 ### Topics Covered
 
-- **Introduction to causality and causal reasoning** – Hisham  
-- **Machine & Deep Learning** – Clement  
-- **AI & Intellectual Property** – *(TBD)*  
+- [**Introduction to causality and causal reasoning**](#introduction-to-causality-and-causal-reasoning)
+- [**Introduction to Machine & Deep Learning**](#introduction-to-machine--deep-learning) 
+- [**Frugal AI: Social & Environmental Impact**](#frugal-ai-social--environmental-impact)
+- [**AI Project Management & Use Case Design (Data Challenge)**](#-ai-project-management--use-case-design-data-challenge) 
 - **AI in Health** – Clement  
 - **Frugal AI: Social & Environmental Impact** – Yogi
 -  **AI Project Management & Data Challenge** – Yogi  
@@ -36,8 +37,9 @@ This section covers foundations of causal graphs, probabilistic models, and caus
 - Introduces conditions like back-door and front-door criteria.
 
 ------ 
+### Introduction to Machine & Deep Learning
 
-### Machine & Deep Learning Course Overview
+#### Course Overview
 
 During this course, which consisted of 8 sessions of 3 hours each, we covered a wide range of technical topics related to AI and machine learning. Below is a summary of the key concepts and techniques we explored:
 
@@ -190,18 +192,12 @@ Lexical meaning is decomposed into atomic primitives—binary features ($man = [
 ##### 3. Distributional Semantics"You understand a word by the words around it":
 
 - Basic Approach:
-
   - Each word gets a unique ID (like "apple=ID73")
-
   - Documents become lists of these IDs
 
-
 - Advanced Approach (Word2Vec):
-
   - Predicts neighboring words (e.g., "juice" likely near "orange")
-
   - Discovers relationships: king - man + woman ≈ queen
-
   - Groups similar words (Sweden/Norway/Denmark cluster together)
 
 ##### Evolutionary Synthesis
