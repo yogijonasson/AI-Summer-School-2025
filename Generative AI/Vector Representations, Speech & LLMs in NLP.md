@@ -37,9 +37,9 @@ Vector operations define compositional semantics:
 
 -   **Weak Contextualization**: $$\gamma(\vec{v}_A, \vec{v}_B) = \vec{v}_A + \vec{v}_B + (\vec{v}_A \odot \vec{v}_B)$$
 
-Polysemy is resolved via superposition: for *frégate* (warship/bird),
+Polysemy is resolved via superposition: for *frégate* (warship/bird), 
 
-$$\vec{v}_{\text{frégate}} = \lambda_1 \vec{v}_{\text{weapon}} + \lambda_2 \vec{v}_{\text{maritime}} + \lambda_3 \vec{v}_{\text{bird}}$$
+$$\vec{v}_{frégate} = \lambda_1 \vec{v}_{weapon} + \lambda_2 \vec{v}_{maritime} + \lambda_3 \vec{v}_{bird}$$
 
 Database construction leverages kernel methods—manually indexing 1,000–2,000 seed terms, then automating expansion through synonymy graphs and corpus statistics—resulting in 276,000 acceptions for French with 61% polysemy.
 
