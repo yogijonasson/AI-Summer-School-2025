@@ -3,11 +3,10 @@
 - [**Introduction to causality and causal reasoning**](#introduction-to-causality-and-causal-reasoning)
 - [**Introduction to Machine & Deep Learning**](#introduction-to-machine--deep-learning) 
 - [**Frugal AI: Social & Environmental Impact**](#frugal-ai-social--environmental-impact)
-- [**AI Project Management & Use Case Design (Data Challenge)**](#-ai-project-management--use-case-design-data-challenge) 
-- **AI in Health** – Clement  
-- **Frugal AI: Social & Environmental Impact** – Yogi
--  **AI Project Management & Data Challenge** – Yogi  
-- **Generative AI** – Hisham  
+- [**AI Project Management & Use Case Design (Data Challenge)**](#-ai-project-management--use-case-design-data-challenge)
+- [**Generative AI - Vector Representations, Speech & LLMs in NLP**](#generative-ai---vector-representations-speech--llms-in-nlp)
+- [**AI & Intellectual Property**](#-ai--intellectual-property)
+- [**AI for Health**](#-ai-for-health)
 
 ### Introduction to causality and causal reasoning
 
@@ -306,7 +305,7 @@ This course bridges foundational theory and cutting-edge practice in NLP. From l
 - Legal frameworks are **not yet adapted** to fully address AI-generated works.
 - Future laws may evolve to recognize **human-AI collaboration**, but the field remains a legal gray zone.
 
-### 🧬 AI in Health
+### 🧬 AI for Health
 
 AI technologies are revolutionizing medicine through **precision-based treatments**, enabled by **big data**, **clinical insights**, and **multi-omics analysis**. This section combines theoretical concepts with hands-on Python notebooks developed as part of our AI in Health module.
 
