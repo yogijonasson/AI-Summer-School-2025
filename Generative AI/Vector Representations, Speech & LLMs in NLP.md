@@ -1,7 +1,7 @@
 
 ## 1. Foundational Concepts: The Ontology of Meaning
 
-The concept starts with the perennial question of meaning representation, tracing its lineage to Aristotelian syllogisms (e.g., *"Socrates is mortal"* derived from *"All men are mortal"*). Here, meaning is formally defined as the equivalence class of paraphrases—a set-theoretic construct where a sentence $s$ and its paraphrase $p$ satisfy $s \sim p$ if they share identical truth conditions across all possible worlds. This philosophical grounding transitions into computational formalisms, where meaning is operationalized through three complementary paradigms:
+The concept starts with the perennial question of meaning representation, tracing its lineage to Aristotelian syllogisms (e.g., *"Socrates is mortal"* derived from *"All men are mortal"*). Here, meaning is formally defined as the equivalence class of paraphrases, a set-theoretic construct where a sentence $s$ and its paraphrase $p$ satisfy $s \sim p$ if they share identical truth conditions across all possible worlds. This philosophical grounding transitions into computational formalisms, where meaning is operationalized through three complementary paradigms:
 
 **Logical Forms** employ first-order predicate calculus to represent semantic relations. For instance, the syllogism is encoded as:
 
@@ -19,13 +19,14 @@ $$\mathcal{D}_A(\text{‘anteater’}, \text{‘ant’}) \approx 15^\circ, \quad
 
 This geometric interpretation naturally extends to higher dimensions, where clusters in $\mathbb{R}^2$ (e.g., animal/plant/artifact groups) visually corroborate semantic neighborhoods.
 
-**Neural Networks** learn continuous representations $\phi : V \to \mathbb{R}^d$ from data, implicitly capturing distributional properties. This paradigm shift—from symbolic to geometric—enables scalable semantic modeling but introduces opacity in interpretability.
+**Neural Networks** learn continuous representations $\phi : V \to \mathbb{R}^d$ from data, implicitly capturing distributional properties. This paradigm shift, from symbolic to geometric, enables scalable semantic modeling but introduces opacity in interpretability.
 
 ## 2. Componential Semantics: Decompositional Vector Spaces
 
 Componential semantics formalizes lexical meaning through atomic primitives (semes), drawing from Wierzbicka's semantic primes and Greimas' structuralist theory. Each word $w$ is represented as a feature vector $\vec{v}_w \in \mathbb{R}^m$, where dimensions correspond to primitives like ±male or ±mature. The binary feature system exemplifies this:
-
-$$\vec{v}_{\text{man}} = [1, 1], \quad \vec{v}_{\text{boy}} = [1, 0], \quad \vec{v}_{\text{child}} = [\alpha, 0], \quad (\alpha \in \{0,1\})$
+-   $\vec{v}_{man}$ = [1, 1]
+-   $\vec{v}_{boy}$ = [1, 0]
+-   $\vec{v}_{child}$ = [α, 0] where α ∈ {0, 1}
 
 **Chauché's Thematic Vectors** extend this to continuous space, using 873 concepts from the Larousse thesaurus as dimensions. Here, $\vec{v}_w$ encodes concept activations (e.g., *peace* activates PEACE at magnitude 0.9 and LIBERTY at 0.8), with non-negativity constraints preserving interpretability.
 
@@ -37,11 +38,12 @@ Vector operations define compositional semantics:
 
 -   **Weak Contextualization**: $$\gamma(\vec{v}_A, \vec{v}_B) = \vec{v}_A + \vec{v}_B + (\vec{v}_A \odot \vec{v}_B)$$
 
-Polysemy is resolved via superposition: for *frégate* (warship/bird), 
+Polysemy is resolved via superposition: for *frégate* (warship/bird):
 
-$$\vec{v}_{frégate} = \lambda_1 \vec{v}_{weapon} + \lambda_2 \vec{v}_{maritime} + \lambda_3 \vec{v}_{bird}$$
+$$\vec{v}\_{\text{frégate}} = \lambda\_1 \vec{v}\_{\text{weapon}} + \lambda\_2 \vec{v}\_{\text{maritime}} + \lambda\_3 \vec{v}\_{\text{bird}}$$
 
-Database construction leverages kernel methods—manually indexing 1,000–2,000 seed terms, then automating expansion through synonymy graphs and corpus statistics—resulting in 276,000 acceptions for French with 61% polysemy.
+
+Database construction leverages kernel methods, manually indexing 1,000–2,000 seed terms, then automating expansion through synonymy graphs and corpus statistics, resulting in 276,000 acceptions for French with 61% polysemy.
 
 ## 3. Distributional Semantics: Contextual Geometry
 
@@ -49,7 +51,7 @@ Distributional semantics, rooted in Firth's axiom ("You shall know a word by the
 
 Salton's vector space model instantiates this via one-hot encodings: each word $w$ has a basis vector $\vec{e}_w \in \{0,1\}^{|V|}$, and documents are sums:
 
-$$\vec{v}_d = \sum_{w \in d} \vec{e}_w$$
+$$\vec{v}\_d = \sum\_{w \in d} \vec{e}\_w$$
 
 This suffers from the curse of dimensionality ($|V| \sim 10^6$) and sparsity, motivating dimensionality reduction. Latent Semantic Analysis (LSA) applies truncated SVD to the term-document matrix $X$:
 
@@ -59,14 +61,14 @@ projecting words into a latent space $\mathbb{R}^k$ where geometric relations en
 
 **Word2Vec's** neural approach revolutionizes this via two architectures:
 
--   **Skip-gram** maximizes: $\sum_{(w_t, w_c)} \log \sigma(\vec{v}_{w_c} \cdot \vec{v}_{w_t})$
+-   **Skip-gram** maximizes: $\sum\_{(w\_t, w\_c)} \log { }\sigma(\vec{v}\_{w\_c} \cdot \vec{v}\_{w\_t})$
 
 -   **CBOW** inversely predicts $w_t$ from $\{w_{t \pm c}\}$.
 
-The resultant embeddings exhibit linear regularities (e.g., $\vec{v}_{\text{king}} - \vec{v}_{\text{man}} + \vec{v}_{\text{woman}} \approx \vec{v}_{\text{queen}}$) and neighborhood structures (e.g., $\cos(\vec{v}_{\text{Sweden}}, \vec{v}_{\text{Norway}}) \approx 0.76$). Limitations include static representations (ignoring context shifts) and brittleness for rare words.
+The resultant embeddings exhibit linear regularities (e.g., $\vec{v}\_{\text{king}} - \vec{v}\_{\text{man}} + \vec{v}\_{\text{woman}} \approx \vec{v}\_{\text{queen}}$) and neighborhood structures (e.g., $\cos(\vec{v}\_{\text{Sweden}}, \vec{v}\_{\text{Norway}}) \approx 0.76$). Limitations include static representations (ignoring context shifts) and brittleness for rare words.
 
 **Celestial analogies** illustrate the geometric paradigm: angular separations between *Lune* (Moon), *Jupiter*, and *Sagittaire* in a 2D semantic map directly correspond to distributional dissimilarities, grounding abstract vector operations in physical intuition. This framework bridges symbolic linguistics with statistical learning, setting the stage for neural language models.
 
 ## Theoretical Synthesis
 
-These sections trace an evolution from handcrafted symbolic representations (componential semantics) to data-driven geometric models (distributional semantics). The former prioritizes interpretability through discrete primitives and algebraic operations; the latter emphasizes scalability via continuous embeddings and statistical learning. Their convergence—evident in neural architectures—underpins modern NLP, where vectors serve as the universal substrate for semantic computation.
+These sections trace an evolution from handcrafted symbolic representations (componential semantics) to data-driven geometric models (distributional semantics). The former prioritizes interpretability through discrete primitives and algebraic operations; the latter emphasizes scalability via continuous embeddings and statistical learning. Their convergence, evident in neural architectures, underpins modern NLP, where vectors serve as the universal substrate for semantic computation.
