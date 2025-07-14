@@ -28,7 +28,7 @@ $$
   P(x\_1,\dots,x\_n) = \prod\_{i=1}^n P\bigl(x\_i \mid x\_{\mathrm{Pa}(i)}\bigr).
 $$
 
-An intervention `do(X_k = x')` replaces the $k$th equation by $X_k \leftarrow x'$. Denoting by $G_{\overline{k}}$ the graph obtained by deleting all incoming edges into $X_k$, the post-intervention distribution is
+An intervention `do(X_k = x')` replaces the $k$ th equation by $X_k \leftarrow x'$. Denoting by $G_{\overline{k}}$ the graph obtained by deleting all incoming edges into $X_k$, the post-intervention distribution is
 
 $$
   P\bigl(x_1,\dots,x_n \mid \mathrm{do}(X_k=x')\bigr)
