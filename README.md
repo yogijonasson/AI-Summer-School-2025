@@ -96,8 +96,8 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
 - **Steve Easterbrook – *From Computational Thinking to Systems Thinking***  
   - Encourages viewing AI as part of complex socio-technical systems requiring holistic, interdisciplinary approaches.
 - **Red AI vs. Green AI**  
-  - *Red AI*: Prioritizes performance, scale, and accuracy—often ignoring energy and resource costs.  
-  - *Green AI*: Focuses on efficiency, transparency, and sustainability—core to the Frugal AI approach.
+  - *Red AI*: Prioritizes performance, scale, and accuracy,often ignoring energy and resource costs.  
+  - *Green AI*: Focuses on efficiency, transparency, and sustainability,core to the Frugal AI approach.
 
 #### 🧭 Core Principles
 - ⚡ **Environmental Efficiency**
@@ -117,7 +117,7 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
   - Encourage transparency, accountability, and interdisciplinary collaboration
 
 #### 🎯 Overall Goal
-> To move toward AI systems that **do more with less**, embedding sustainability, equity, and ethical responsibility as foundational—not optional—values in innovation.
+> To move toward AI systems that **do more with less**, embedding sustainability, equity, and ethical responsibility as foundational,not optional,values in innovation.
 
 ------ 
 
@@ -159,14 +159,14 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 
 - We had only **5 hours** to regroup and complete the challenge, which tested our ability to prioritize, collaborate, and make quick decisions.
 ##### For the Group A :
-- We completed most of the presentation—including project planning and system design—but couldn’t deliver a **functioning machine learning model** in time.
+- We completed most of the presentation,including project planning and system design,but couldn’t deliver a **functioning machine learning model** in time.
 - Despite trying both **Linear Regression** and **Random Forest**, our models failed to produce reliable predictions.
 - Possible reasons include:
   - Data cleaning issues
   - Bugs or missteps in our **Python implementation**
   - Misalignment between model selection and the data characteristics
 - This made it clear that early alignment around **data quality and preprocessing** is critical.
-- Our biggest takeaway: **if the model fails, revisit the data pipeline first**—debugging at the model stage without clean data is often wasted effort.
+- Our biggest takeaway: **if the model fails, revisit the data pipeline first**,debugging at the model stage without clean data is often wasted effort.
 - Moving forward, we need to rebuild the pipeline with a stronger foundation in **data cleaning**, **model debugging**, and **performance evaluation**.
 
 📂 These are the group A
@@ -197,7 +197,7 @@ This course explores the foundations and frontiers of **Natural Language Process
 Semantic meaning is formally defined as the invariant truth conditions shared across paraphrased expressions, exemplified by deriving "Socrates is mortal" from "All men are mortal." This conceptual framework is implemented computationally through three complementary paradigms: symbolic logic using first-order predicate calculus (e.g., $\forall x: { } human(x) \Rightarrow mortal(x) $); vector geometry that maps words to $\mathbb{R}^D$ where angular distance quantifies semantic similarity $(e.g.,~\arccos\left( \frac{\vec{v}_1 \cdot \vec{v}_2}{\lVert \vec{v}_1 \rVert \lVert \vec{v}_2 \rVert} \right))$  reveals "anteater" ($\vec{v}_1$) and "ant" ($\vec{v}_2$) are 15° apart); and neural networks that learn continuous representations $\phi: \mathcal{V} \rightarrow \mathbb{R}^D$ directly from linguistic data, prioritizing scalability over interpretability.
 
 ##### 2. Componential Semantics
-Lexical meaning is decomposed into atomic primitives—binary features ($man = [+male, +adult]$) for basic terms or continuous activations across 873 Larousse concepts for richer vocabulary (e.g., "peace" activates $PEACE=0.9$, $LIBERTY=0.8$). Semantic composition is governed by algebraic operations: normalized summation $\left( v_a\mathbin{\oplus_b} = \frac{v_a + v_b}{\lVert v_a + v_b \rVert} \right) $) merges primitives, term-wise product ($v_a\mathbin{\otimes_b} = v_a \odot v_b $) extracts intersections, and weak contextualization ($\gamma(v_a, v_b) = v_a + v_b + \left( v_a \odot v_b \right) $) enriches meaning. Polysemy is resolved via vector superposition, as in $bat = 0.6\cdot v_{animal} + 0.4 \cdot v_{sports{ }tool}$.
+Lexical meaning is decomposed into atomic primitives,binary features ($man = [+male, +adult]$) for basic terms or continuous activations across 873 Larousse concepts for richer vocabulary (e.g., "peace" activates $PEACE=0.9$, $LIBERTY=0.8$). Semantic composition is governed by algebraic operations: normalized summation $\left( v_a\mathbin{\oplus_b} = \frac{v_a + v_b}{\lVert v_a + v_b \rVert} \right) $) merges primitives, term-wise product ($v_a\mathbin{\otimes_b} = v_a \odot v_b $) extracts intersections, and weak contextualization ($\gamma(v_a, v_b) = v_a + v_b + \left( v_a \odot v_b \right) $) enriches meaning. Polysemy is resolved via vector superposition, as in $bat = 0.6\cdot v_{animal} + 0.4 \cdot v_{sports{ }tool}$.
 
 ##### 3. Distributional Semantics"You understand a word by the words around it":
 
@@ -221,7 +221,7 @@ The historical trajectory of NLP:
 | Statistical NLP (1990s–2010s) | Probabilistic, data-driven   | Bag-of-words, n-grams, LSA            |
 | Neural NLP (2013–Now)  | Deep learning & self-supervised | Word2Vec, BERT, GPT, Transformers     |
 
-Today, **vector representations** unify the field—from logic to language generation.
+Today, **vector representations** unify the field,from logic to language generation.
 
 
 #### 🇫🇷 Case Study: FlauBERT to Pantagruel
@@ -280,11 +280,11 @@ Core Tasks:
 
 #### 📘 References & Further Reading
 
-- Jurafsky & Martin (2019) — *Speech and Language Processing*
-- Le et al. (2020) — *FlauBERT: Unsupervised Language Model Pre-training for French*
-- Schwab et al. — *From FlauBERT to Pantagruel*
-- Strubell et al. (2019) — *Energy and Policy Considerations for NLP*
-- Ouyang et al. (2022) — *InstructGPT*
+- Jurafsky & Martin (2019) , *Speech and Language Processing*
+- Le et al. (2020) , *FlauBERT: Unsupervised Language Model Pre-training for French*
+- Schwab et al. , *From FlauBERT to Pantagruel*
+- Strubell et al. (2019) , *Energy and Policy Considerations for NLP*
+- Ouyang et al. (2022) , *InstructGPT*
 - Chomsky (1957), Bolt (1980), Firth (1957)
 
 #### ✅ Summary
@@ -300,7 +300,7 @@ This course bridges foundational theory and cutting-edge practice in NLP. From l
 
 #### 🎨 Notable Example
 - In 2022, an AI-generated image ("**Théâtre D'opéra Spatial**") won an art competition using **Midjourney**.
-- It sparked controversy over fairness, originality, and copyright—raising global debate on AI's role in creative fields.
+- It sparked controversy over fairness, originality, and copyright,raising global debate on AI's role in creative fields.
 
 #### 🔑 Takeaways
 - Patents and copyrights currently **exclude non-human creators**.
@@ -329,7 +329,7 @@ AI technologies are revolutionizing medicine through **precision-based treatment
   AI helps **characterize patients at scale** and propose targeted interventions across populations.
 
 - **The Multi-Omics Era**  
-  Diseases arise from complex interactions across different biological layers—**genomics, proteomics, transcriptomics**, etc.—which AI helps interpret through integrated models.
+  Diseases arise from complex interactions across different biological layers,**genomics, proteomics, transcriptomics**, etc.,which AI helps interpret through integrated models.
 
 #### 📚 AI for Health – Python Notebooks
 
@@ -355,6 +355,6 @@ AI technologies are revolutionizing medicine through **precision-based treatment
 
 #### 🔑 Summary
 
-These notebooks demonstrate how AI can be applied across multiple healthcare data types—structured tables, clinical text, omics, and images—to support precision medicine and improve patient care.
+These notebooks demonstrate how AI can be applied across multiple healthcare data types,structured tables, clinical text, omics, and images,to support precision medicine and improve patient care.
 
 > 💡 Together, they reflect how AI is **not just a tool**, but a transformative force for global health and next-generation medical practices.
