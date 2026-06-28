@@ -67,7 +67,7 @@ During this course, which consisted of 8 sessions of 3 hours each, we covered a 
 - Evaluation metrics for models were discussed, such as accuracy, precision, recall, F1-score for classification, and MSE, RMSE, MAE for regression tasks.
 - Various models were studied, including K-means Clustering for unsupervised learning, K-Nearest Neighbors (KNN) for classification, Decision Trees for both classification and regression, and Logistic Regression.
 
-#### ​​ Practical Sessions 👩‍💻
+#### ​​ Practical Sessions 
 
 In addition to theoretical learning, the course included practical sessions using Python notebooks. These hands-on sessions allowed us to implement and experiment with the concepts discussed in class. We worked on various datasets, applying machine learning techniques and neural network models to solve real-world problems. These practical exercises were crucial in reinforcing our understanding and skills in AI and machine learning. <br>
 In these session we saw about 
@@ -100,23 +100,23 @@ Frugal AI refers to resource-efficient, socially equitable, and environmentally 
   - *Green AI*: Focuses on efficiency, transparency, and sustainability,core to the Frugal AI approach.
 
 ####  Core Principles
--  **Environmental Efficiency**
+- ##### **Environmental Efficiency**
   - Model compression, pruning, and use of edge computing
   - Energy-efficient training and deployment processes
 
--  **Social Inclusion**
+- ##### **Social Inclusion**
   - Design AI for low-resource environments and infrastructure
   - Utilize transfer learning, federated learning, and inclusive datasets
 
--  **Systems Thinking**
+- ##### **Systems Thinking**
   - Evaluate AI through full life cycle assessment (LCA)
   - Consider unintended consequences and feedback loops
 
--  **Ethical & Sustainable Governance**
+- ##### **Ethical & Sustainable Governance**
   - Align AI development with the UN Sustainable Development Goals (SDGs)
   - Encourage transparency, accountability, and interdisciplinary collaboration
 
-#### 🎯 Overall Goal
+#### Overall Goal
 > To move toward AI systems that **do more with less**, embedding sustainability, equity, and ethical responsibility as foundational,not optional,values in innovation.
 
 ------ 
@@ -148,7 +148,7 @@ As part of the challenge, we were tasked with **managing and delivering an end-t
 7. **Monitoring & Maintenance (Theoretical)**  
    Considered how the model would need to evolve over time.
 
-#### 🛠️ Use Case: Automatic Product Quotation System
+####  Use Case: Automatic Product Quotation System
 
 - Designed an AI-powered tool to support **cost estimation** in a manufacturing context.
 - Mapped industrial needs to data and technical requirements.
@@ -224,20 +224,20 @@ The historical trajectory of NLP:
 Today, **vector representations** unify the field,from logic to language generation.
 
 
-#### 🇫🇷 Case Study: FlauBERT to Pantagruel
+####  Case Study: FlauBERT to Pantagruel
 
-##### 🧪 FlauBERT (2019)
+#####  FlauBERT (2019)
 - French BERT-style model (base: 138M | large: 373M)
 - Trained on 71GB across 24 corpora
 - Evaluation benchmark: **FLUE** (French GLUE)
 
-##### 🔬 JARGON (2023)
+##### JARGON (2023)
 - Domain-specialized French models:
   - Biomedical, Legal, Oral French
 - Efficient Transformer variant using **Linformer** for 4096-token contexts
 - Evaluated on 16 downstream tasks
 
-##### 🧱 Pantagruel Project (2024–)
+##### Pantagruel Project (2024–)
 - Building **multimodal, inclusive LLMs** (text, speech, pictograms)
 - Focus on accessibility, medical NLP, and HSS applications
 - Teams: LIG, INA, CREST, EPFL, +70 researchers
@@ -333,22 +333,22 @@ AI technologies are revolutionizing medicine through **precision-based treatment
 
 ####  AI for Health – Python Notebooks
 
-1. ** Tabular Data: Risk Classification**  
+1. **Tabular Data: Risk Classification**  
    [`AI4Health_01_Tabular_Classification.ipynb`](AI%20For%20Health/AI4Health_01_Tabular_Classification.ipynb)  
    - Applies AI to structured patient data for **disease risk prediction**.
    - Demonstrates classification pipelines with demographic and clinical features.
 
-2. ** Clinical Text Classification**  
+2. **Clinical Text Classification**  
    [`AI4Health_02_Clinical_Text_Classification.ipynb`](AI%20For%20Health/AI4Health_02_Clinical_Text_Classification.ipynb)  
    - Processes real-world **clinical notes** using NLP techniques.
    - Builds models to **classify health conditions** from unstructured text data.
 
-3. ** Multi-Omics Precision Modeling**  
+3. **Multi-Omics Precision Modeling**  
    [`AI4Health_03_Omics_Precision_Medicine.ipynb`](AI%20For%20Health/AI4Health_03_Omics_Precision_Medicine.ipynb)  
    - Integrates genomic and molecular-level data.
    - Demonstrates how AI can support **precision medicine** by linking genetic profiles to treatment outcomes.
 
-4. ** Histology Image Classification**  
+4. **Histology Image Classification**  
    [`AI4Health_04_Histology_Image_Classification.ipynb`](AI%20For%20Health/AI4Health_04_Histology_Image_Classification.ipynb)  
    - Uses computer vision to analyze **microscopic tissue images**.
    - Helps automate disease diagnosis and improve early detection.
